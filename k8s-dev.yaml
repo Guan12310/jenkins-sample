@@ -14,7 +14,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: registry.cn-hangzhou.aliyuncs.com/guan12319/guan12319:<BUILD_TAG>
+      - image: guan12319/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
